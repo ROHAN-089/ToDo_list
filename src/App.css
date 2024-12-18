@@ -1,0 +1,124 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading h1{
+  text-decoration: underline;
+  padding: 10px;
+  margin: 20px;
+}
+
+.container{
+  border-radius: 4px;
+  background-color: #1b1919;
+  width: 40rem;
+  min-height: 70vh;
+  box-shadow: 0px 0px 30px 5px rgba(27, 26, 26, 0.8);
+}
+
+.addtodo h2{
+  margin: 5px 10px;
+  text-decoration: underline;
+}
+.todoinput{
+  padding: 10px;
+
+}
+
+.todoinput input{
+  width: 80%;
+  margin-right: 5px;
+  height: 30px;
+
+}
+
+.todoinput button{
+  
+  border: 1px solid white;
+  background-color: #1b1919;
+  padding: 7px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.todoinput button:hover{
+  opacity: 0.7;
+  background-color: #ffffff;
+  color: black;
+}
+
+.todosbox{
+  margin: 20px 10px;
+
+}
+
+.todosbox h3{
+  text-decoration: underline;
+}
+
+.line{
+  padding: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+.item{
+  background-color: #3b3737;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+  padding: 10px;
+}
+
+.item div{
+  display: flex;
+  gap: 6px;
+}
+
+.done{
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+}
+
+.item div button{
+  padding: 2px;
+}
+.completed{
+  text-decoration: line-through;
+}
+
+
+.div{
+  display: flex;
+  margin: 10px;
+  gap: 4px;
+}
+
+input{
+  width: 20px;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+ .container {
+    width: 90%;
+  }
+  
+}
